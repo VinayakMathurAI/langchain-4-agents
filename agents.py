@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 
 class ConversationalAgent:
     def __init__(self, message_callback: Callable[[str], Awaitable[None]]):
-        api_key = "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"
+        api_key = "enter your key"
         
         self.llm_handler = LLMHandler(api_key)
         self.message_callback = message_callback
